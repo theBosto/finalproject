@@ -620,12 +620,6 @@ footer a {
     transform: scale(1.03);
 }
 
-.cards_row {
-    display: flex;
-    column-gap: 20px;
-    row-gap: 40px;
-}
-
 .pages {
     display: flex;
     column-gap: 48px;
