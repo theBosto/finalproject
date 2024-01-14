@@ -1,15 +1,12 @@
-@media (max-width: 1301px) {
-    .cards_row {
-        flex-wrap: wrap;
-        justify-content: center;
+@media (max-width: 1440px) {
+    .hide1440 {
+        display: none;
     }
+}
 
+@media (max-width: 1025px) {
     .section2_catalog {
         padding-inline: 45px;
-    }
-
-    .section2_card4 {
-        display: none;
     }
 }
 
@@ -48,16 +45,6 @@
 
     .show {
         left: 0;
-    }
-}
-
-@media (max-width: 1024px ) {
-    .section2_catalog {
-        padding: 48px 32px
-    }
-
-    .section2_card3 {
-        display: none;
     }
 }
 

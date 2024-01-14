@@ -1,3 +1,14 @@
+@media(max-width: 745px) {
+    .section2_catalog {
+        padding: 48px 64px;
+    }
+
+    .hide745 {
+        display: none;
+    }
+}
+
+
 @media (max-width: 714px) {
     .footer_content {
         flex-direction: column;
@@ -76,7 +87,7 @@
         padding: 32px 16px;
     }
 
-    .section2_card2 {
+    .hide680 {
         display: none;
     }
 
@@ -90,11 +101,6 @@
 
     .section2_cards {
         padding-block: 40px;
-    }
-
-    .picture {
-        width: 343px;
-        height: 298px;
     }
 
     .pages h3 {
